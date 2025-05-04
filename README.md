@@ -4,7 +4,7 @@ This is a personal portfolio website showcasing my projects, services, and conta
 
 ## 🔗 Live Site
 
-[Visit my portfolio](https://portfolio/)
+[Visit my portfolio](https://leyxiehash.github.io/portfolio/)
 
 ## 📁 Features
 
@@ -50,7 +50,7 @@ To run the portfolio locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/leyxiehash/leyxiehash.github.io.git
+   git clone https://github.com/leyxiehash/portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
