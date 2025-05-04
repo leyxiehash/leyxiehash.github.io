@@ -4,7 +4,7 @@ This is a personal portfolio website showcasing my projects, services, and conta
 
 ## 🔗 Live Site
 
-[Visit my portfolio](leisphere.netlify.app)
+[Visit my portfolio](https://leyxiehash.github.io/)
 
 ## 📁 Features
 
