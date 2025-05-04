@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>LEI SPHERE | CONTACT</title>
+    <link rel="stylesheet" href="/styles/contact.css" />
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon"/>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="/public/logo.png" alt="Logo" class="logo" />
+                <a href="/index.html" class="site-title">LEI SPHERE</a>
+            </div>
+
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+                <div class="header-buttons">
+                    <a href="projects.html" class="outline-btn">Explore Projects</a>
+                    <a href="contact.html" class="filled-btn">Get in Touch</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact -->
+    <div class="contact-container">
+        <h1><i class="fas fa-envelope"></i> Contact Me</h1>
+        <p class="form-description">Have questions or feedback? We'd love to hear from you!</p>
+        
+        <div id="form-status" class="form-status"></div>
+        
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name" class="required-field">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="John Doe">
+            </div>
+            
+            <div class="form-group">
+                <label for="email" class="required-field">Email Address</label>
+                <input type="email" id="email" name="email" required placeholder="john@example.com">
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+            </div>
+            
+            <div class="form-group">
+                <label for="subject" class="required-field">Subject</label>
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Select a subject</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Support">Academic</option>
+                    <option value="Feedback">Research</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="message" class="required-field">Your Message</label>
+                <textarea id="message" name="message" required placeholder="Please type your message here..."></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+        </form>
+        
+        <div class="form-footer">
+            <p>I typically respond within 24 hours</p>
+        </div>
+        
+        <div class="contact-methods">
+            <a href="tel:+669157738077" class="contact-method">
+                <i class="fas fa-phone"></i>
+                <span>+669157738077</span>
+            </a>
+            <a href="mailto:leinicole753@gmail.com" class="contact-method">
+                <i class="fas fa-envelope"></i>
+                <span>leinicole753@gmail.com</span>
+            </a>
+            <div class="contact-method">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Bulacan, Philippines</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="containerss">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="/index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="services.html">services</a></li>
+                        <li><a href="projects.html">projects</a></li>
+                        <li><a href="/company/privacy.html">privacy</a></li>
+                        <li><a href="/company/terms-of-service.html">terms of service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="/company/FAQ.html">FAQ</a></li>
+                        <li><a href="/company/support.html">Support</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/leyxiee.q" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/andiecommss" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/leiuv.xn/" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/lei-nicole-osera-06988a307/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/leyxiehash" title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            &copy; 2025 Lei Sphere. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+    // Mobile menu toggle
+    document.getElementById("hamburger").onclick = function () {
+        document.getElementById("nav-menu").classList.toggle("active");
+    };
+    </script>
+    
+</body>
+</html>
