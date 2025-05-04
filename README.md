@@ -4,7 +4,7 @@ This is a personal portfolio website showcasing my projects, services, and conta
 
 ## 🔗 Live Site
 
-[Visit my portfolio](https://leyxiehash.github.io/portfolio/)
+[Visit my portfolio](leisphere.netlify.app)
 
 ## 📁 Features
 
@@ -54,7 +54,7 @@ To run the portfolio locally:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd leyxiehash.github.io
+   cd portfolio 
    ```
 3. Open `index.html` in your browser.
 
