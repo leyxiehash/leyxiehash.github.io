@@ -50,11 +50,11 @@ To run the portfolio locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/leyxiehash/portfolio.git
+   git clone https://github.com/leyxiehash/leyxiehash.github.io.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd portfolio 
+   cd leyxiehash.github.io
    ```
 3. Open `index.html` in your browser.
 
